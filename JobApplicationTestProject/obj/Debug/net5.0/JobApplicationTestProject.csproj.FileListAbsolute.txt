@@ -1,0 +1,16 @@
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\bin\Debug\net5.0\JobApplicationTestProject.exe
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\bin\Debug\net5.0\JobApplicationTestProject.deps.json
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\bin\Debug\net5.0\JobApplicationTestProject.runtimeconfig.json
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\bin\Debug\net5.0\JobApplicationTestProject.runtimeconfig.dev.json
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\bin\Debug\net5.0\JobApplicationTestProject.dll
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\bin\Debug\net5.0\JobApplicationTestProject.pdb
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.csproj.AssemblyReference.cache
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.AssemblyInfoInputs.cache
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.AssemblyInfo.cs
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.csproj.CoreCompileInputs.cache
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.dll
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\refint\JobApplicationTestProject.dll
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.pdb
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\JobApplicationTestProject.genruntimeconfig.cache
+C:\Users\harun\source\repos\JobApplicationTestProject\JobApplicationTestProject\obj\Debug\net5.0\ref\JobApplicationTestProject.dll

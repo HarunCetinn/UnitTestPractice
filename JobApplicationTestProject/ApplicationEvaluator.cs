@@ -13,11 +13,13 @@ namespace JobApplicationLibrary
         private const int minAge = 18;
         private List<string> techStackList = new() { "C#", "RabbitMq", "Microservices", "Go", };
         private const int autoAcceptedYearofExperiance = 15;
-        private IdentityValidator identityValidator;
+        private readonly IIdentityValidator _identityValidator;
+        //private IdentityValidator identityValidator;
 
-        public ApplicationEvaluator()
+        public ApplicationEvaluator(IIdentityValidator identityValidator)
         {
-            identityValidator = new IdentityValidator();
+            
+            _identityValidator = identityValidator;
         }
 
         public ApplicationResult Evaluate(JobApplication form)
@@ -25,7 +27,11 @@ namespace JobApplicationLibrary
             if (form.Applicant.Age < minAge)
                 return ApplicationResult.AutoRejected;
 
-            var validIdentity = identityValidator.IsValid(form.Applicant.IdentityNumber);
+            if(_identityValidator.CountryDataProvider.CountryData.Country != "Turkey")
+                return ApplicationResult.TransferredToCTO;
+
+            //var connectionSucceed = _identityValidator.CheckConnectionToRemoteServer();
+            var validIdentity = /*connectionSucceed &&*/ _identityValidator.IsValid(form.Applicant.IdentityNumber);
 
             if(!validIdentity)
                 return ApplicationResult.TransferredToHR;

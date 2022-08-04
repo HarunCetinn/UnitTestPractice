@@ -13,5 +13,7 @@ namespace JobApplicationLibrary.Models
         public int YearsOfExperiance { get; set; }
         public List<string> TechStackList { get; set; }
 
+
+
     }
 }

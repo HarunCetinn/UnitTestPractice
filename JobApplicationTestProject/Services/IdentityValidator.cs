@@ -6,8 +6,19 @@ using System.Threading.Tasks;
 
 namespace JobApplicationTestProject.Services
 {
-    public class IdentityValidator
+    public class IdentityValidator :IIdentityValidator
     {
+        //Bu sınıf bizim için önemsiz şu an.
+
+        public string Country => throw new NotImplementedException();
+
+        public IIdentityValidator.ICountryDataProvider CountryDataProvider => throw new NotImplementedException();
+
+        public bool CheckConnectionToRemoteServer()
+        {
+            throw new NotImplementedException();
+        }
+
         public bool IsValid(string identityNumber)
         {
             return true;
